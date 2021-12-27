@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # RichEdit React Application
 
-This example is a ready-to-use client React application with the DevExpress RichEdit component.
+This example is a ready-to-use client React application with the DevExpress [RichEdit](https://docs.devexpress.com/AspNetCore/400373/office-inspired-controls/controls/rich-edit) component.
 
 ## Requirements
 * To use the RichEdit control in a React application, you need to have a [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
@@ -26,8 +26,13 @@ npm start
 ```
 
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
 * [App.js](./src/App.js)
 
 <!-- default file list end -->
+
+## Documentation
+
+- [Rich Text Editor](https://docs.devexpress.com/AspNetCore/400373/rich-edit)
+- [Get Started: Add RichEdit to a React Application](https://docs.devexpress.com/AspNetCore/401874/rich-edit/get-started/react-application)
