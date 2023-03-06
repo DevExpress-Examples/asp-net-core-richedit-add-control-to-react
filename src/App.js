@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';
 import 'devexpress-richedit/dist/dx.richedit.css';
 
@@ -16,9 +15,11 @@ function App() {
 export default App;
 
 class RichEditComponent extends React.Component {
-  rich = RichEdit;
+  rich = null;
 
   componentDidMount() {
+    if (this.rich)
+      return;
     // the createOptions() method creates an object that contains RichEdit options initialized with default values
     const options = createOptions();
 
@@ -89,10 +90,10 @@ class RichEditComponent extends React.Component {
 
     options.readOnly = false;
     options.width = '1400px';
-    options.height = '800px';
+    options.height = '900px';
 
     this.rich = create(document.getElementById("richEdit"), options);
-    
+
     var documentAsBase64 = "e1xydGYxXGRlZmYwe1xmb250dGJse1xmMCBDYWxpYnJpO319e1xjb2xvcnRibCA7XHJlZDB"
         + "cZ3JlZW4wXGJsdWUyNTUgO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NSA7fXtcKlxkZWZjaHAgXGZzMjJ9e1xzdHl"
         + "sZXNoZWV0IHtccWxcZnMyMiBOb3JtYWw7fXtcKlxjczFcZnMyMiBEZWZhdWx0IFBhcmFncmFwaCBGb250O317XCp"
