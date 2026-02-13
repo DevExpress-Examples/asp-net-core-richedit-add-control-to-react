@@ -39,7 +39,7 @@ Refer to the following topic for more information: [Add RichEdit to a React Appl
 
 - [Rich Text Editor](https://docs.devexpress.com/AspNetCore/400373/rich-edit)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-core-richedit-add-control-to-react&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-core-richedit-add-control-to-react&~~~was_helpful=no)
 
